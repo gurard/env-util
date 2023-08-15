@@ -17,5 +17,4 @@ export const printLineTextHeader = (text: string) => {
 
 export const printLine = (text: string) => {
     console.log(text);
-    printLineEmpty();
 }
