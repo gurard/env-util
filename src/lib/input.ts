@@ -1,3 +1,5 @@
+'use strict';
+
 import * as promptSync from 'prompt-sync';
 
 let promptConfig: promptSync.Config = {

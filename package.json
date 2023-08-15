@@ -7,7 +7,7 @@
     "start": "node dist/index.js",
     "test": "node_modules/.bin/mocha test/**/*.js --timeout 150000 --exit",
     "build": "tsc",
-    "package": "npm install && npm run build && npm link"
+    "package": "npm install && npm run build && npm unlink env-util && npm link"
   },
   "bin": {
     "env-util": "dist/index.js"
