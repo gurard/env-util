@@ -1,0 +1,22 @@
+{
+  "name": "env-util",
+  "version": "0.0.0",
+  "description": "utility to set local environment variables",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "node_modules/.bin/mocha test/**/*.js --timeout 150000 --exit",
+    "build": "tsc",
+    "package": "npm install && npm run build && npm unlink && npm link"
+  },
+  "bin": {
+    "cf-util": "dist/index.js"
+  },
+  "author": "andrew weber",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "~4.7.2"
+  }
+}
